@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import "header.css";
+@import "banner.css";
+@import "blog.css";
+@import "vision.css";
+@import "info.css";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Tomorrow', sans-serif;
+    letter-spacing: 1px;	
+}
+section{
+    width: 100%;
+    
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+.copy{
+    color: #fff;
+    width: 900px;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sociales{    
+    display: table;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+}
+.direccion{
+    color: #fff;
+    margin-top: 5%;
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 30px;
+}
+.mapa{
+    margin-bottom: 20px;    
+}
+footer{
+    background: #000;
+}

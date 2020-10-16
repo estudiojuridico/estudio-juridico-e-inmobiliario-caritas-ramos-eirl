@@ -1,0 +1,64 @@
+#vision{
+    background: url(biblioteca.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    color: #fff;    
+    padding: 20px;    
+}
+.vis_co{
+    background-color: rgba(113,81,38,0.6);
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 411px;
+    padding: 3%;
+}
+.vi_vision{
+    font-size: 40px;    
+    margin-bottom: 10px;
+    text-align: center;
+}
+.lis_vis{
+    text-align: justify; 
+}
+.par_vis{
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+@media(min-width: 701px){
+    .vis_co{
+        width: 550px;
+    }
+    .vi_vision{
+        font-size: 55px;
+    }
+    .par_vis{
+        font-size: 20px;
+    }
+}
+@media(min-width: 900px){
+    .vis_co{
+        width: 730px;
+    }
+    .vi_vision{
+        font-size: 58px;
+    }
+    .par_vis{
+        font-size: 25px;
+    }
+}
+@media(min-width: 1450px){
+    .vis_co{
+        width: 840px;
+        margin: auto;
+    }
+    .vi_vision{
+        font-size: 60px;
+    }
+    .par_vis{
+        font-size: 25px;
+    }
+}

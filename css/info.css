@@ -1,0 +1,111 @@
+#info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;    
+}
+.info_co{
+    width: 95%;
+    margin: auto;    
+}
+.neg{
+    font-weight: bold;
+    font-size: 34px;
+    padding-bottom: 20px;
+}
+.info_conte{
+    display: table;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.info_part{
+    padding: 18px;
+}
+.img_info{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    border: 4px solid #fff;
+}
+.nom_cal{
+    color: #000;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #fff;
+}
+.nom_ab{
+    font-size: 35px;
+}
+.tel_cor{
+    padding-top: 12px;
+    color: rgb(127,127,127);
+}
+.lqq{
+    font-size: 24px;
+}
+#conocenos{
+    background: rgb(221,221,221);
+}
+#conocenos .cono_logro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conocenos h1,h4{
+    text-align: center;
+    color: rgb(0,48,91);
+}
+#conocenos img{    
+    border-radius: 40px;
+    border: 5px solid #fff;
+}
+#conocenos h1{
+    font-size: 42px;
+    padding-top: 20px;
+    font: bold;
+}
+#conocenos h4{
+    font-size: 20px;
+}
+#conocenos article{
+    margin: 20px;
+}
+.horizontal{
+    max-width: 730px;
+    width: 100%;
+}
+.vertical{
+    max-width: 342px;
+    width: 100%;
+}
+@media(min-width: 701px){
+    .info_co{
+        width: 550px;
+    }
+}
+@media(min-width: 854px){
+    .nom_cal{
+        margin-top: 15%;        
+    } 
+    .info_co{
+        width: 804px;
+    }
+}
+@media (min-width: 1450px){
+    .nom_cal{
+        margin-top: 22%;
+    }
+    .nom_ab{
+        font-size: 45px;
+    }
+    .lqq{
+        font-size: 34px;
+    }
+    .img_info{
+        width: 450px;
+        height: 500px;
+    }
+    .info_co{
+        width: 1400px;
+    }
+}

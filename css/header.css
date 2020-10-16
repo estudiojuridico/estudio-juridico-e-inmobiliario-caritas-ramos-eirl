@@ -1,0 +1,181 @@
+.header{
+    background: rgb(32,32,32);	
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.logo{
+    margin: auto;
+    width: 98%;			
+    display: table;
+    display: flex;
+    justify-content: space-between;
+}   
+.publicidad{
+    display: block;
+    margin: 5px;
+    width: 55px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border: 3px solid #B8B8B8;
+}
+.nombre{
+    float: left;
+    margin: 5px;	
+    font-size: 17px;
+    margin-right: auto;
+}
+#presion{
+    display: none;
+}
+
+.menu{    
+    margin: 5px;
+}
+.icon-menu{	
+    float: right;
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 22px;
+    cursor: pointer;   
+    margin-right: 0;    
+}
+.icon-menu:hover{
+    opacity: 0.6;
+}
+#presion:checked ~ .contacto{
+    transform: translateX(0%);
+}
+
+.redes{	
+	display: flex;
+	margin-left: auto;
+	overflow: hidden;
+}
+.img3{
+	width: 20px;
+	height: 20px;
+	margin: 3px;
+}
+.img3, .numero{
+	display: none;
+}
+.img4{	
+	width: 30px;
+	height: 20px;
+	margin: 3px;
+}
+.img4, .correo{
+	display: none;
+}
+
+.numero, .correo{
+	margin-top: 3px;
+	font-size: 18px;
+}
+
+.facebook{
+	display: none;
+	margin: 16px;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px; 	
+}
+
+.facebook:hover {
+	border: 5px solid rgba(255,137,29,0.9);
+	border-radius: 7px;	
+}
+
+.img3, .img4, .numero, .correo{
+	margin-top: 23px;
+}
+.contacto{
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(51,51,51,1);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu_link_inicio, .menu_link_aten, .menu_link_vis, .menu_link_abo, .menu_link_cono{
+    display: block;
+    padding: 20px;
+    height: 55px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.menu_link_inicio:hover, .menu_link_aten:hover, .menu_link_vis:hover, .menu_link_abo:hover, .menu_link_cono:hover{
+    background: rgb(255,127,39);
+    color: #fff;
+}
+@media (min-width: 701px){
+    .contacto{
+        top: 71px;
+    }
+    .nombre{
+        width: 472px;
+	font-size: 25px;
+	margin-left: 25px;
+    }
+    .header{		
+	height: 71px;
+    }
+    .publicidad{
+	width: 77px;
+	height: 59px;
+	border-radius: 27px;
+    }
+    .menu{
+        margin-top: 10px;
+    }
+    .icon-menu{
+        width: 47px;
+        height: 47px;
+    }
+}
+@media (min-width: 1238px){
+	.menu{
+        display: none;
+    }
+    .contacto{
+        padding-top: 14.5px;
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        background: none;        
+    }
+    .menu_link_inicio, .menu_link_aten, .menu_link_vis, .menu_link_abo, .menu_link_cono{
+        font-size: 17px;
+        border: none;
+        border-radius: 13px;        
+        margin-left: 5px;
+        background: rgba(51,51,51,1);
+        padding: 10px;
+        height: 42px;
+    }
+}
+@media (min-width: 1450px){
+    .logo{
+	width: 1400px;
+    }    
+}
